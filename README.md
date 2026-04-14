@@ -42,9 +42,9 @@ Created key metrics:
 
 ### 📈 Analysis
 
-* Compared trader performance across **Fear vs Greed**
-* Analyzed behavior changes (trade size, frequency, bias)
-* Conducted statistical testing (Mann-Whitney U Test)
+* Compared trader performance across **Fear vs Greed regimes**
+* Analyzed behavior changes (trade size, frequency, directional bias)
+* Conducted statistical testing (**Mann-Whitney U Test**)
 
 ### 🧠 Segmentation
 
@@ -64,20 +64,16 @@ Traders were grouped into:
 ## 📊 Key Insights
 
 1. **Fear increases risk, not necessarily losses**
-
-   * PnL variability (risk) is higher during Fear regimes
+   → PnL variability is higher during Fear regimes
 
 2. **Large traders are more sensitive to sentiment**
-
-   * High-size traders show stronger performance swings
+   → High-size traders show stronger performance swings
 
 3. **More trading ≠ better results**
-
-   * Increased activity during Greed does not guarantee higher win rates
+   → Increased activity during Greed does not guarantee higher win rates
 
 4. **Segment-level analysis is more meaningful than averages**
-
-   * Different trader types react differently to sentiment
+   → Different trader types respond differently to sentiment
 
 ---
 
@@ -87,17 +83,18 @@ Traders were grouped into:
   → Helps control volatility and drawdowns
 
 * **Increase exposure selectively during Greed**
-  → Only for traders with consistent performance
+  → Focus on traders with consistent performance
 
 ---
 
 ## ⚠️ Limitations
 
 * The dataset does **not include explicit leverage**
+  → Trade size and frequency are used as proxies for aggressiveness
 
-  * Trade size and frequency are used as proxies for aggressiveness
 * Sentiment is available only at daily level (no intraday granularity)
-* Analysis shows correlation, not causation
+
+* The analysis identifies relationships, not causation
 
 ---
 
@@ -128,7 +125,6 @@ Traders were grouped into:
 
 ## 📌 Conclusion
 
-Market sentiment significantly impacts trader behavior, especially in terms of **risk and variability**.
-Segment-based strategies provide more actionable insights than general rules.
+Market sentiment significantly impacts trader behavior, primarily through **risk and variability rather than consistent profitability**.
 
----
+Segment-based strategies provide more actionable insights than one-size-fits-all rules.
